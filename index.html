@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <h2><u>Student Registration Form:</u></h2>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <br><br>
+        <input type="text" name="rollno." placeholder="Enter your roll.no" required>
+        <br><br>
+        <input type="password" name="password" placeholder="Enter password" required>
+        <br><hr><br>
+        <label for="branch">Select Your Branch:</label><br>
+        <input type="radio" value="csm" name="branch" required>CSM<br>
+        <input type="radio" value="it" name="branch" required>IT<br>
+        <input type="radio" value="cse" name="branch" required>CSE<br>
+        <input type="radio" value="csd" name="branch" required>CSD<br>
+        <input type="radio" value="ec" name="branch" required>EC<br>
+        <br><hr>
+        <label for="sectio">Select Your Section:</label><br>
+        <input type="radio" value="a" name="section" required>A<br>
+        <input type="radio" value="b" name="section" required>B<br>
+        <input type="radio" value="c" name="section" required>C<br>
+        <br><hr>
+        <label for="field">Select Your Field (Which field you want to work):</label><br>
+        <input type="checkbox" value="data science" name="field" >Data Science<br>
+        <input type="checkbox" value="aiml" name="field" >AIML<br>
+        <input type="checkbox" value="devops" name="field" >Devops<br>
+        <input type="checkbox" value="cloud computing" name="field" >Cloud Computing<br>
+        <input type="checkbox" value="web development" name="field" >Web Development<br>
+        <hr>
+        <h3><b>Feedback Here:</b></h3><br>
+        <textarea name="feedback" placeholder="Give your feedback" rows="8" cols="30"></textarea>
+        <br>
+        <label for="submit">Submit:</label><input type="submit" name="submit"><br><br>
+        <label for="reset">Reset:</label><input type="reset" name="reset">
+    </form>
+</body>
+</html>
