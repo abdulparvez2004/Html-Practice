@@ -9,6 +9,11 @@ body{
     background-image: url("https://cdn.wallpapersafari.com/18/85/udTL2N.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+    height:100vh;
     font-size: 20px; 
     font-family: Arial, sans-serif;
     color: black; 
